@@ -1,26 +1,3 @@
-# Nomad Coffee Roasters — SEO practice site (intentionally unfinished)
-
-A small React + Vite + Tailwind site, built the same way ExcellFinance
-currently is — including the same gaps. Nothing here has SEO added yet.
-That's the point: fix it yourself, in a low-stakes copy of the real
-problem, before touching the actual client project.
-
-## What's deliberately missing (mirrors the ExcellFinance audit)
-
-1. **Per-page metadata** — `index.html` has one static `<title>nomad</title>`
-   and no `<meta name="description">`. Every route shows the same tab
-   title. No `react-helmet-async` installed.
-2. **Content missing from the initial HTML** — `BlogPostPage.jsx` fetches
-   from `/posts.json` inside a `useEffect`, the same pattern as
-   ExcellFinance's `BlogPostPage.jsx` fetching from the API. Run
-   `npm run build` and look at `dist/index.html` — no article text in it.
-3. **One route standing in for several pages** — `ServicePage.jsx` holds
-   three service pillars behind `useState("wholesale")` instead of real
-   routes, the same pattern as ExcellFinance's `/service` tabs.
-4. **No sitemap.xml or robots.txt** — `public/` only has the default Vite
-   icon.
-5. **No structured data** — no JSON-LD anywhere.
-
 ## Suggested order (and why)
 
 1. Add `react-helmet-async`, set a title + description per page.
