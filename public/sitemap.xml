@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/about</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/blog/a-note-on-our-honduras-lot</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/blog/why-we-roast-in-small-batches</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/blog/what-water-actually-does-to-your-coffee</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/blog</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/service/training</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/service/subscription</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/service/wholesale</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/service</loc>
+    </url>
+    <url>
+        <loc>https://nomad-coffee-roaster.vercel.app/contact</loc>
+    </url>
+</urlset>
